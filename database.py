@@ -7,7 +7,7 @@ def conexão():
     try:
         # CONEXÃO 
         global con, cur
-        con = psycopg2.connect(host="localhost", database="postgres", user="postgres", password="blackgarden")
+        con = psycopg2.connect(host="localhost", database="postgres", user="postgres", password="password")
         cur = con.cursor()
         print("Conexão realizada!")
     except:
